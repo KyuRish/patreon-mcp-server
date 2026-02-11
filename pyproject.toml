@@ -1,0 +1,21 @@
+[project]
+name = "patreon-mcp-server"
+version = "0.1.0"
+description = "MCP server for the Patreon API  - manage campaigns, members, and posts from any AI assistant"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "Rishabh Dogra" },
+]
+keywords = ["patreon", "mcp", "model-context-protocol", "claude", "ai", "creator-economy"]
+readme = "README.md"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.8.0",
+    "pydantic>=2.11.4",
+    "python-dotenv>=1.1.0",
+]
+
+[project.urls]
+Repository = "https://github.com/kyurish/patreon-mcp-server"
+Issues = "https://github.com/kyurish/patreon-mcp-server/issues"

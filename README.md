@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![MCP](https://img.shields.io/badge/MCP-compatible-green.svg)](https://modelcontextprotocol.io)
+[![PyPI](https://img.shields.io/pypi/v/patreon-mcp-server)](https://pypi.org/project/patreon-mcp-server/)
+
+mcp-name: io.github.KyuRish/patreon-mcp-server
 
 Give AI assistants access to your Patreon creator data. The first authenticated Patreon MCP server  - works with Claude Desktop, Cursor, Windsurf, VS Code Copilot, and any MCP-compatible client.
 

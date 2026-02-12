@@ -1,6 +1,6 @@
 [project]
 name = "patreon-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for the Patreon API  - manage campaigns, members, and posts from any AI assistant"
 requires-python = ">=3.11"
 license = "MIT"

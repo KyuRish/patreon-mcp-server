@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .cache/
 .venv/
+dist/
+mcp-publisher*
+.mcpregistry_*
+server.json

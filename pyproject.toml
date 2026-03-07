@@ -4,9 +4,7 @@ version = "0.1.1"
 description = "MCP server for the Patreon API  - manage campaigns, members, and posts from any AI assistant"
 requires-python = ">=3.11"
 license = "MIT"
-authors = [
-    { name = "Rishabh Dogra" },
-]
+authors = [{ name = "Rishabh Dogra", email = "contact@kyuish.com" }]
 keywords = ["patreon", "mcp", "model-context-protocol", "claude", "ai", "creator-economy"]
 readme = "README.md"
 dependencies = [

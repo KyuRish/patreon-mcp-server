@@ -24,7 +24,7 @@ Go to [Patreon Developer Portal](https://www.patreon.com/portal/registration/reg
   "mcpServers": {
     "patreon": {
       "command": "uv",
-      "args": ["run", "--directory", "/path/to/patreon-mcp-server", "src/server.py"],
+      "args": ["run", "--directory", "/path/to/patreon-mcp-server", "src/patreon_mcp_server/server.py"],
       "env": {
         "PATREON_ACCESS_TOKEN": "your_token_here"
       }
@@ -40,7 +40,7 @@ Go to [Patreon Developer Portal](https://www.patreon.com/portal/registration/reg
   "mcpServers": {
     "patreon": {
       "command": "uv",
-      "args": ["run", "--directory", "/path/to/patreon-mcp-server", "src/server.py"],
+      "args": ["run", "--directory", "/path/to/patreon-mcp-server", "src/patreon_mcp_server/server.py"],
       "env": {
         "PATREON_ACCESS_TOKEN": "your_token_here"
       }
@@ -112,13 +112,13 @@ cd patreon-mcp-server
 uv sync
 
 # Test it runs
-PATREON_ACCESS_TOKEN=your_token uv run src/server.py
+PATREON_ACCESS_TOKEN=your_token uv run src/patreon_mcp_server/server.py
 ```
 
 ## Project Structure
 
 ```
-src/
+src/patreon_mcp_server/
   server.py        # Entry point
   mcp_server.py    # FastMCP init + client instance
   tools.py         # @mcp.tool() definitions
